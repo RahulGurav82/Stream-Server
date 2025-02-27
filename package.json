@@ -1,0 +1,14 @@
+{
+  "name": "video-rendering-server",
+  "version": "1.0.0",
+  "description": "A server for receiving and streaming screen captures",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
